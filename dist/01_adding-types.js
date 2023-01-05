@@ -1,9 +1,10 @@
-var user = "Alice";
+"use strict";
+let user = "Alice";
 user = "Bob";
 user = 42;
 user = true;
-var users = [];
+const users = [];
 //users.push("Alice");
 //users.push(1);
 //let aaa =11;
-var result = users.pop();
+const result = users.pop();
